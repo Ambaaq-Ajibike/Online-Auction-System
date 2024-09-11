@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\model\\email\\biddingupdateemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\model\\email\\biddingupdateemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\model\\email\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\model\\email\\emailconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\services\\interfaces\\iemailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\model\\email\\sendemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\model\\email\\sendemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-11T07:57:34.278Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "API\\Controllers\\EmailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:40:20.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Implementations\\EmailService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\Implementations\\EmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Implementations\\EmailService.cs",
+              "RelativeToolTip": "API\\Services\\Implementations\\EmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:39:01.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BiddingUpdateEmailModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\BiddingUpdateEmailModel.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Email\\BiddingUpdateEmailModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\BiddingUpdateEmailModel.cs",
+              "RelativeToolTip": "API\\Model\\Email\\BiddingUpdateEmailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:31:32.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmailConfig.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\EmailConfig.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Email\\EmailConfig.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\EmailConfig.cs",
+              "RelativeToolTip": "API\\Model\\Email\\EmailConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:59:04.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T08:14:03.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SendEmailModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\SendEmailModel.cs",
+              "RelativeDocumentMoniker": "API\\Model\\Email\\SendEmailModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Model\\Email\\SendEmailModel.cs",
+              "RelativeToolTip": "API\\Model\\Email\\SendEmailModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:28:13.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmailService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\Interfaces\\IEmailService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Interfaces\\IEmailService.cs",
+              "RelativeToolTip": "API\\Services\\Interfaces\\IEmailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T07:26:54.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-11T07:25:54.537Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
