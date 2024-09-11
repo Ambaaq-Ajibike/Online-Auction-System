@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "API\\appsettings.Development.json",
               "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\appsettings.Development.json",
               "RelativeToolTip": "API\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABsAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-09-11T07:57:34.278Z",
               "EditorCaption": ""
@@ -83,8 +83,7 @@
               "RelativeToolTip": "API\\Services\\Implementations\\EmailService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-11T07:39:01.057Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-11T07:39:01.057Z"
             },
             {
               "$type": "Document",
