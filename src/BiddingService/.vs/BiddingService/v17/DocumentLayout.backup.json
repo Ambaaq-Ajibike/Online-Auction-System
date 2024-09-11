@@ -1,0 +1,524 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\services\\implementations\\auctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\services\\implementations\\auctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\controllers\\biddingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\services\\implementations\\biddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\services\\implementations\\biddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Auction.BiddingService/True/SqlTable/dbo.Biddings.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Auction.BiddingService/True/SqlTable/dbo.Auctions.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\auction\\updateauctionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\auction\\updateauctionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\controllers\\auctionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\controllers\\auctionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\domain\\entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\auction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\auction\\createauctionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\auction\\createauctionrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\auction\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\auction\\auctiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\services\\interfaces\\iauctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\iauctionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\bidding\\biddingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\bidding\\biddingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\services\\interfaces\\ibiddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\services\\interfaces\\ibiddingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\extensions\\servicecollectionextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\infrastructure\\extension\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\extension\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\bidding\\updatebiddingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\bidding\\updatebiddingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\infrastructure\\persistence\\repositories\\biddingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\persistence\\repositories\\biddingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\repositories\\ibiddingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\repositories\\ibiddingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\bidding\\createbiddingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\bidding\\createbiddingrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\domain\\entities\\bidding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\bidding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\dto\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\dto\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{32DDCB21-4806-4C46-A97A-7ACB6B0382C7}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\application\\repositories\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{27F5F1B6-CF2B-4BA2-836D-B10D82408F28}|Application\\Application.csproj|solutionrelative:application\\repositories\\iauctionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DF37BEE-EF8F-4BFB-9564-ECA0FEDEB2CF}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\biddingservice\\infrastructure\\migrations\\20240910182617_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD67B91D-E6E0-4414-B522-922AD3E5CFD2}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240910182617_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.Auctions [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Auction.BiddingService/True/SqlTable/dbo.Auctions.sql",
+              "ToolTip": "dbo.Auctions [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-10T23:48:56.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BiddingService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Implementations\\BiddingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Implementations\\BiddingService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Implementations\\BiddingService.cs",
+              "RelativeToolTip": "Application\\Services\\Implementations\\BiddingService.cs",
+              "ViewState": "AgIAADsAAACAAAAAAAAmwFMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:50:56.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Auction.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Entities\\Auction.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Auction.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Entities\\Auction.cs",
+              "RelativeToolTip": "Domain\\Entities\\Auction.cs",
+              "ViewState": "AgIAAA4AAACAZmZmZmYqwCcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:11:56.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CreateAuctionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\CreateAuctionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Auction\\CreateAuctionRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\CreateAuctionRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\Auction\\CreateAuctionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:42:31.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateAuctionRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\UpdateAuctionRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Auction\\UpdateAuctionRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\UpdateAuctionRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\Auction\\UpdateAuctionRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAACWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:46:41.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuctionService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Implementations\\AuctionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Implementations\\AuctionService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Implementations\\AuctionService.cs",
+              "RelativeToolTip": "Application\\Services\\Implementations\\AuctionService.cs",
+              "ViewState": "AgIAADQAAAAgMzMzMzMwwHQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:48:50.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BiddingController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Controllers\\BiddingController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\BiddingController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Controllers\\BiddingController.cs",
+              "RelativeToolTip": "API\\Controllers\\BiddingController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:15:59.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Biddings [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/Auction.BiddingService/True/SqlTable/dbo.Biddings.sql",
+              "ToolTip": "dbo.Biddings [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-09-10T23:59:46.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuctionsController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Controllers\\AuctionsController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AuctionsController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Controllers\\AuctionsController.cs",
+              "RelativeToolTip": "API\\Controllers\\AuctionsController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:24:27.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwBUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:39:49.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuctionDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\AuctionDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Auction\\AuctionDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Auction\\AuctionDto.cs",
+              "RelativeToolTip": "Application\\DTO\\Auction\\AuctionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:44:43.549Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240910231531_ImageUrlInAuction.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240910231531_ImageUrlInAuction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T23:15:31.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IAuctionService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Interfaces\\IAuctionService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IAuctionService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Interfaces\\IAuctionService.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\IAuctionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:38:11.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BiddingDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\BiddingDto.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Bidding\\BiddingDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\BiddingDto.cs",
+              "RelativeToolTip": "Application\\DTO\\Bidding\\BiddingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:56:16.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBiddingService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Interfaces\\IBiddingService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Interfaces\\IBiddingService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Services\\Interfaces\\IBiddingService.cs",
+              "RelativeToolTip": "Application\\Services\\Interfaces\\IBiddingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:51:18.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ServiceCollectionExtension.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeDocumentMoniker": "Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Extensions\\ServiceCollectionExtension.cs",
+              "RelativeToolTip": "Application\\Extensions\\ServiceCollectionExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:33:23.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T17:16:58.637Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Extension\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Extension\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Extension\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "Infrastructure\\Extension\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:34:32.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\appsettings.Development.json",
+              "RelativeToolTip": "API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T17:10:25.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Application.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Application.csproj",
+              "RelativeDocumentMoniker": "Application\\Application.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Application.csproj",
+              "RelativeToolTip": "Application\\Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T17:31:15.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UpdateBiddingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\UpdateBiddingRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Bidding\\UpdateBiddingRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\UpdateBiddingRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\Bidding\\UpdateBiddingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T22:20:20.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BiddingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Persistence\\Repositories\\BiddingRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Persistence\\Repositories\\BiddingRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Persistence\\Repositories\\BiddingRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Persistence\\Repositories\\BiddingRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwBcAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:52:12.719Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CreateBiddingRequest.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\CreateBiddingRequest.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\Bidding\\CreateBiddingRequest.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\Bidding\\CreateBiddingRequest.cs",
+              "RelativeToolTip": "Application\\DTO\\Bidding\\CreateBiddingRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T21:54:00.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Bidding.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Entities\\Bidding.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Bidding.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Entities\\Bidding.cs",
+              "RelativeToolTip": "Domain\\Entities\\Bidding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T16:13:42.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IBiddingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Repositories\\IBiddingRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\IBiddingRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Repositories\\IBiddingRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\IBiddingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:37:00.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Application\\DTO\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\DTO\\BaseResponse.cs",
+              "RelativeToolTip": "Application\\DTO\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T19:39:23.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20240910182617_Init.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Migrations\\20240910182617_Init.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240910182617_Init.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Migrations\\20240910182617_Init.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240910182617_Init.cs",
+              "ViewState": "AgIAABUAAADAmZmZmZktwD8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T18:26:17.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T17:57:24.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IAuctionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Repositories\\IAuctionRepository.cs",
+              "RelativeDocumentMoniker": "Application\\Repositories\\IAuctionRepository.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Application\\Repositories\\IAuctionRepository.cs",
+              "RelativeToolTip": "Application\\Repositories\\IAuctionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:32:15.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "API.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AgIAAAYAAACAxW2va28DwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T17:28:10.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\BiddingService\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-10T16:09:51.12Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
