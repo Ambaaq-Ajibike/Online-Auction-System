@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\services\\implementations\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|solutionrelative:api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{795AEA06-8FA6-4B89-B6B1-8BEA13987CE4}|API\\API.csproj|c:\\users\\hp\\desktop\\system\\extern\\extern\\onlineauctionsystem\\src\\notificationservice\\notificationservice\\api\\model\\email\\biddingupdateemailmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,11 +46,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\appsettings.Development.json",
               "RelativeDocumentMoniker": "API\\appsettings.Development.json",
@@ -76,13 +76,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Implementations\\EmailService.cs",
               "RelativeDocumentMoniker": "API\\Services\\Implementations\\EmailService.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\System\\Extern\\Extern\\OnlineAuctionSystem\\src\\NotificationService\\NotificationService\\API\\Services\\Implementations\\EmailService.cs",
               "RelativeToolTip": "API\\Services\\Implementations\\EmailService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T07:39:01.057Z",
               "EditorCaption": ""
