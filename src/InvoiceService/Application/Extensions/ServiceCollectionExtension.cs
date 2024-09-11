@@ -15,8 +15,7 @@ namespace Application.Extensions
         public static IServiceCollection AddServices(this IServiceCollection serviceCollection)
         {
             return serviceCollection
-                .AddScoped<IAuctionService, AuctionService>()
-                .AddScoped<IBiddingService, BiddingService>();
+                .AddScoped<IInvoiceService, InvoiceService>();
         }
     }
 }

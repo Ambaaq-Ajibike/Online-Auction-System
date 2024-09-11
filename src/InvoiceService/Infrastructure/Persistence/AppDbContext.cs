@@ -15,7 +15,6 @@ namespace Infrastructure.Persistence
         {
         
         }
-        public DbSet<Auction> Auctions { get; set; }
-        public DbSet<Bidding> Biddings { get; set; }
+        public DbSet<Invoice> Invoices { get; set; }
     }
 }

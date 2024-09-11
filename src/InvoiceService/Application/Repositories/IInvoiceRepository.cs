@@ -8,10 +8,9 @@ using System.Threading.Tasks;
 
 namespace Application.Repositories
 {
-    public interface IBiddingRepository
+    public interface IInvoiceRepository
     {
-        Task<Bidding> CreateAsync(Bidding bidding);
-        Task<Bidding> UpdateAsync(Bidding auction);
-        Task<Bidding> GetAsync(Expression<Func<Bidding, bool>> expression);
+        Task<Invoice> CreateAsync(Invoice invoice);
+        Task<Invoice> GetAsync(Expression<Func<Invoice, bool>> expression);
     }
 }

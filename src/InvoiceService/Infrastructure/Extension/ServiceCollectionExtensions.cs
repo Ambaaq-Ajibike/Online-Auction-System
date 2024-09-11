@@ -16,10 +16,9 @@ namespace Infrastructure.Extension
                     options.UseSqlServer(connectionString));
         }
         public static IServiceCollection AddRepositories(this IServiceCollection serviceCollection)
-        { 
+        {
             return serviceCollection
-                .AddScoped<IAuctionRepository, AuctionRepository>()
-                .AddScoped<IBiddingRepository, BiddingRepository>();
+                .AddScoped<IInvoiceRepository, InvoiceRepository>();
         }
     }
 }
