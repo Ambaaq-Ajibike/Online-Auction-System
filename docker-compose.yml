@@ -9,6 +9,10 @@ services:
       - "5000:6000"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.BiddingService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -20,6 +24,10 @@ services:
       - "5001:6003"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.PaymentService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -31,6 +39,10 @@ services:
       - "5002:6002"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.RoomService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -42,6 +54,10 @@ services:
       - "5003:6004"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.NotificationService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -53,6 +69,10 @@ services:
       - "5004:5000"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.AuthService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -64,6 +84,10 @@ services:
       - "5005:6001"
     environment:
       - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.InvoiceService;User=sa;Password=ajibike123
+      - NATS_URL=nats://nats:4222
+    depends_on:
+      - nats
+      - db
     networks:
       - auction-network
 
@@ -75,6 +99,16 @@ services:
       - SA_PASSWORD=ajibike123
     ports:
       - "1433:1433"
+    networks:
+      - auction-network
+
+  nats:
+    image: nats:latest
+    container_name: nats
+    ports:
+      - "4222:4222"
+      - "8222:8222"  # Optional monitoring port
+    restart: always
     networks:
       - auction-network
 
