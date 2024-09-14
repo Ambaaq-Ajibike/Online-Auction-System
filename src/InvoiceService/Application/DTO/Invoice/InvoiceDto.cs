@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Invoice
 {
-    public record InvoiceDto(Guid invoiceId, string payerName, Guid payerId, string receiverName, Guid receiverId, decimal amountToPay);
-
+    public class InvoiceDto
+    {
+        public Guid Id { get; set; }
+        public Guid AuctionId { get; set; }
+        public string Name { get; set; }
+        public string Product { get; set; }
+        public decimal Amount { get; set; }
+    }
 }

@@ -9,21 +9,19 @@ namespace Domain.Entities
     public class Invoice
     {
         public Guid Id { get; private set; }
-        public Guid InvoiceId { get; private set; }
+        public Guid AuctionId { get; set; }
+        public string InvoiceRef { get; private set; }
         public string PayerName { get; private set; }
-        public Guid PayerId { get; private set; }
-        public string ReceiverName { get; private set; }
-        public Guid ReceiverId { get; private set; }
+        public string ProductPurchased { get; private set; }
         public decimal AmountToPay { get; private set; }
         public DateTime DateInitialized { get; private set; }
-        public Invoice(Guid invoiceId, string payerName, Guid payerId, string receiverName, Guid receiverId, decimal amountToPay) 
+        public Invoice(string payerName, decimal amountToPay, string product, Guid auctionId) 
         {
             Id = Guid.NewGuid();
-            InvoiceId = invoiceId;
+            AuctionId = auctionId;
+            InvoiceRef = $"OAS-{Guid.NewGuid().ToString()[..7]}";
             PayerName = payerName;
-            PayerId = payerId;
-            ReceiverName = receiverName;
-            ReceiverId = receiverId;
+            ProductPurchased = product;
             AmountToPay = amountToPay;
             DateInitialized = DateTime.Now;
         }

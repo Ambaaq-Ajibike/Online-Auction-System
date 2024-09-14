@@ -9,10 +9,9 @@ namespace API.Controllers
     [ApiController]
     public class EmailController(IEmailService _emailService) : ControllerBase
     {
-        [HttpPost("bidding")]
-        public async Task<IActionResult> SendBidUpdates(SendEmailModel<BiddingUpdateEmailModel> biddingUpdate)
+        [HttpPost]
+        public async Task<IActionResult> Model()
         {
-            var mailSent = await _emailService.SendBidUpdates(biddingUpdate);
             return Ok(new { Message = "Mail successfully sent" });
         }
 

@@ -1,18 +1,12 @@
 [
   {
     "ContainingType": "API.Controllers.EmailController",
-    "Method": "SendBidUpdates",
-    "RelativePath": "api/Email/bidding",
+    "Method": "Model",
+    "RelativePath": "api/Email",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [
-      {
-        "Name": "biddingUpdate",
-        "Type": "API.Model.Email.SendEmailModel\u00601[[API.Model.Email.BiddingUpdateEmailModel, API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
-        "IsRequired": true
-      }
-    ],
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

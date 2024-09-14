@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Bidding
 {
-    public record CreateBiddingRequest(Guid auctionId, Guid bidderId, decimal amount);
+    public record CreateBiddingRequest(decimal Amount, Guid AuctionId, string ProductName, string ProductDescription, string BidderId);
 }

@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Bidding
 {
-    public class BiddingDto(Guid id, string productName, decimal productPrice, decimal biddingAmount, Guid bidderId);
+    public class BiddingDto(Guid id, string productName, decimal biddingAmount, string bidderId);
+    public record NotificationModel(List<string> bidderEmails, decimal highestBiddingAmount, string highestBidderName, Guid auctionId, string product);
 }

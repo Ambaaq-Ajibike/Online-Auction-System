@@ -11,7 +11,7 @@ namespace Application.Services.Implementations
     {
         public async Task<BaseResponse<Guid>> CreateAsync(PaymentRequest paymentRequest)
         {
-            var existingPayment = await _repository.GetAsync(x => x.InvoiceId == paymentRequest.invoiceId);
+            var existingPayment = await _repository.GetAsync(x => x.InvoiceRef == paymentRequest.invoiceRef);
             if (existingPayment is not null) 
             {
                 return new BaseResponse<Guid>
@@ -23,7 +23,7 @@ namespace Application.Services.Implementations
             
             
            
-            var invoice = new Payment(paymentRequest.invoiceId, true);
+            var invoice = new Payment(paymentRequest.invoiceRef, true);
             await _repository.CreateAsync(invoice);
             return new BaseResponse<Guid>
             {
@@ -47,7 +47,7 @@ namespace Application.Services.Implementations
             {
                 Message = "Payment retrieved successfuly",
                 Status = true,
-                Data = new PaymentDto(invoice.InvoiceId, invoice.Date)
+                Data = new PaymentDto(invoice.InvoiceRef, invoice.Date)
             };
         }
     }

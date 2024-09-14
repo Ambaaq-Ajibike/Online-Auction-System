@@ -18,7 +18,6 @@ namespace Infrastructure.Extension
         public static IServiceCollection AddRepositories(this IServiceCollection serviceCollection)
         { 
             return serviceCollection
-                .AddScoped<IAuctionRepository, AuctionRepository>()
                 .AddScoped<IBiddingRepository, BiddingRepository>();
         }
     }

@@ -8,36 +8,41 @@ using Newtonsoft.Json.Linq;
 using API.Services.Interfaces;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Options;
+using API.Context;
+using API.Model;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Services.Implementations
 {
-    public class EmailService(IOptions<EmailConfig> config) : IEmailService
+    public class EmailService(IOptions<EmailConfig> config, AppDbContext context) : IEmailService
     {
         private readonly EmailConfig _emailConfig = config.Value;
-        public async Task<bool> SendBidUpdates(SendEmailModel<BiddingUpdateEmailModel> biddingUpdate)
+        public async System.Threading.Tasks.Task SendBidUpdates(NotificationModel biddingUpdate)
         {
-            Configuration.Default.ApiKey.Add("api-key", _emailConfig.ApiKey);
-
-            var apiInstance = new TransactionalEmailsApi();
-
-            SendSmtpEmailSender Email = new SendSmtpEmailSender(_emailConfig.SendName, _emailConfig.SendEmail);
-           
-            SendSmtpEmailTo smtpEmailTo = new SendSmtpEmailTo(biddingUpdate.recieverEmail, biddingUpdate.recieverName);
-            List<SendSmtpEmailTo> To = new List<SendSmtpEmailTo>();
-            string HtmlContent = GenerateBiddingUpdateMessage(biddingUpdate.data);
-            string Subject = "Bidding Update";
-            try
+            var initialHighestBidder = await context.HighestBidders.SingleOrDefaultAsync(x => x.AuctionId == biddingUpdate.auctionId);
+            if (initialHighestBidder == null) 
             {
-                var sendSmtpEmail = new SendSmtpEmail(Email, To, null, null, HtmlContent, null, Subject, null, null, null, null, null, null, null);
-                CreateSmtpEmail result = apiInstance.SendTransacEmail(sendSmtpEmail);
-                return true;
+                var highestBidder = new HighestBidderDetail
+                {
+                    Amount = biddingUpdate.highestBiddingAmount,
+                    AuctionId = biddingUpdate.auctionId,
+                    Name = biddingUpdate.highestBidderName,
+                    Product = biddingUpdate.product
+
+                };
+                await context.HighestBidders.AddAsync(highestBidder);
+                await context.SaveChangesAsync();
             }
-            catch (Exception e)
+            else
             {
-                Debug.WriteLine(e.Message);
-                Console.WriteLine(e.Message);
-                throw;
+                initialHighestBidder.Name = biddingUpdate.highestBidderName;
+                initialHighestBidder.Amount = biddingUpdate.highestBiddingAmount;
+                context.Update(initialHighestBidder);
+                await context.SaveChangesAsync();
             }
+
+            BiddingUpdateEmailModel model = new(biddingUpdate.highestBidderName, biddingUpdate.highestBiddingAmount);
+            await SendEmail(biddingUpdate.bidderEmails, "Bidding Updates", GenerateBiddingUpdateMessage(model));
         }
         private string GenerateBiddingUpdateMessage(BiddingUpdateEmailModel model)
         {
@@ -57,6 +62,33 @@ namespace API.Services.Implementations
                 .Replace("{{amount}}", model.amount.ToString());
 
             return emailContent;
+        }
+        public async Task<bool> SendEmail(List<string> receiversEmails, string subject, string htmlContent)
+        {
+            Configuration.Default.ApiKey.Add("api-key", _emailConfig.ApiKey);
+
+            var apiInstance = new TransactionalEmailsApi();
+
+            SendSmtpEmailSender Email = new SendSmtpEmailSender(_emailConfig.SendName, _emailConfig.SendEmail);
+
+
+            List<SendSmtpEmailTo> To = new List<SendSmtpEmailTo>();
+            foreach (var email in receiversEmails)
+            {
+                To.Add(new SendSmtpEmailTo(email, "Recipient"));
+            }
+            try
+            {
+                var sendSmtpEmail = new SendSmtpEmail(Email, To, null, null, htmlContent, null, subject, null, null, null, null, null, null, null);
+                CreateSmtpEmail result = apiInstance.SendTransacEmail(sendSmtpEmail);
+                return true;
+            }
+            catch (Exception e)
+            {
+                Debug.WriteLine(e.Message);
+                Console.WriteLine(e.Message);
+                throw;
+            }
         }
 
     }

@@ -21,7 +21,11 @@ namespace Infrastructure.Persistence.Repositories
 
         public async Task<Bidding> GetAsync(Expression<Func<Bidding, bool>> expression)
         {
-            return await _context.Biddings.Include(x => x.Auction).FirstOrDefaultAsync(expression);
+            return await _context.Biddings.FirstOrDefaultAsync(expression);
+        }
+        public async Task<List<Bidding>> ListAsync(Expression<Func<Bidding, bool>> expression)
+        {
+            return await _context.Biddings.Where(expression).ToListAsync();
         }
 
         public async Task<Bidding> UpdateAsync(Bidding bidding)

@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Bidding
 {
-    public record UpdateBiddingRequest(decimal amount);
+    public record UpdateBiddingRequest(Guid auctionId, decimal amount);
 }

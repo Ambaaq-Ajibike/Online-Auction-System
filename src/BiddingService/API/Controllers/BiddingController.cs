@@ -1,7 +1,9 @@
 ﻿using Application.DTO.Bidding;
 using Application.Services.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace API.Controllers
 {
@@ -9,17 +11,14 @@ namespace API.Controllers
     [ApiController]
     public class BiddingController(IBiddingService _biddingService) : ControllerBase
     {
-        [HttpPost]
-        public async Task<IActionResult> CreateAsync(CreateBiddingRequest request)
-        {
-            var response = await _biddingService.CreateAsync(request);
-            return (response.Status) ? Ok(response) : BadRequest(response);
-        }
+       
 
         [HttpPatch("{biddingId}")]
-        public async Task<IActionResult> UpdateBidAsyn([FromRoute]Guid biddingId, UpdateBiddingRequest biddingRequest)
+        [Authorize]
+        public async Task<IActionResult> UpdateBidAsyn(UpdateBiddingRequest biddingRequest)
         {
-            var response = await _biddingService.UpdateAsync(biddingId, biddingRequest.amount);
+            var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var response = await _biddingService.UpdateAsync(userId, biddingRequest);
             return (response.Status) ? Ok(response) : NotFound(response);
         }
         

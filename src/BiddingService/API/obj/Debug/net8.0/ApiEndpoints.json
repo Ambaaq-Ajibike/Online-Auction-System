@@ -1,84 +1,5 @@
 [
   {
-    "ContainingType": "API.Controllers.AuctionsController",
-    "Method": "CreateAsync",
-    "RelativePath": "api/Auctions",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Application.DTO.Auction.CreateAuctionRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.AuctionsController",
-    "Method": "GetOpenAuctions",
-    "RelativePath": "api/Auctions",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.AuctionsController",
-    "Method": "UpdateAsync",
-    "RelativePath": "api/Auctions/{auctionId}",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "auctionId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      },
-      {
-        "Name": "auctionRequest",
-        "Type": "Application.DTO.Auction.UpdateAuctionRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.AuctionsController",
-    "Method": "GetAsync",
-    "RelativePath": "api/Auctions/{auctionId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "auctionId",
-        "Type": "System.Guid",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "API.Controllers.BiddingController",
-    "Method": "CreateAsync",
-    "RelativePath": "api/Bidding",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "request",
-        "Type": "Application.DTO.Bidding.CreateBiddingRequest",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "API.Controllers.BiddingController",
     "Method": "UpdateBidAsyn",
     "RelativePath": "api/Bidding/{biddingId}",
@@ -87,13 +8,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "biddingId",
-        "Type": "System.Guid",
+        "Name": "biddingRequest",
+        "Type": "Application.DTO.Bidding.UpdateBiddingRequest",
         "IsRequired": true
       },
       {
-        "Name": "biddingRequest",
-        "Type": "Application.DTO.Bidding.UpdateBiddingRequest",
+        "Name": "biddingId",
+        "Type": "",
         "IsRequired": true
       }
     ],

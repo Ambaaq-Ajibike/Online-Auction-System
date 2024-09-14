@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Payment
 {
-    public record PaymentDto(Guid invoiceId, DateTime datePayed);
+    public record PaymentDto(string invoiceRef, DateTime datePayed);
 }

@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
 namespace Application.DTO.Payment
 {
-    public record PaymentRequest(Guid invoiceId, string userEmail);
+    public record PaymentRequest(string invoiceRef, decimal amount, string userEmail);
 
 }

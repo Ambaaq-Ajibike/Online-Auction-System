@@ -2,6 +2,7 @@
 using Application.Services.Implementations;
 using Application.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using NATS.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,12 @@ namespace Application.Extensions
         public static IServiceCollection AddServices(this IServiceCollection serviceCollection)
         {
             return serviceCollection
-                .AddScoped<IPaymentService, PaymentService>();
+                .AddScoped<IPaymentService, PaymentService>().AddSingleton<IConnection>(sp =>
+                {
+                    var options = ConnectionFactory.GetDefaultOptions();
+                    options.Url = "nats://localhost:4222";
+                    return new ConnectionFactory().CreateConnection(options);
+                }).AddHostedService<SubscriberService>();
         }
     }
 }

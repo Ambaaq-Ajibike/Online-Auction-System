@@ -13,5 +13,6 @@ namespace Application.Repositories
         Task<Bidding> CreateAsync(Bidding bidding);
         Task<Bidding> UpdateAsync(Bidding auction);
         Task<Bidding> GetAsync(Expression<Func<Bidding, bool>> expression);
+        Task<List<Bidding>> ListAsync(Expression<Func<Bidding, bool>> expression);
     }
 }
