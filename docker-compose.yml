@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  bidding-service:
+    build:
+      context: ./src/BiddingService
+    container_name: bidding-service
+    ports:
+      - "5000:6000"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.BiddingService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  payment-service:
+    build:
+      context: ./src/PaymentService
+    container_name: payment-service
+    ports:
+      - "5001:6003"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.PaymentService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  room-service:
+    build:
+      context: ./src/RoomService
+    container_name: room-service
+    ports:
+      - "5002:6002"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.RoomService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  notification-service:
+    build:
+      context: ./src/NotificationService
+    container_name: notification-service
+    ports:
+      - "5003:6004"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.NotificationService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  auth-service:
+    build:
+      context: ./src/AuthService
+    container_name: auth-service
+    ports:
+      - "5004:5000"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.AuthService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  invoice-service:
+    build:
+      context: ./src/InvoiceService
+    container_name: invoice-service
+    ports:
+      - "5005:6001"
+    environment:
+      - ConnectionStrings__AppConnectionString=Server=db;Database=Auction.InvoiceService;User=sa;Password=ajibike123
+    networks:
+      - auction-network
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: mssql
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=ajibike123
+    ports:
+      - "1433:1433"
+    networks:
+      - auction-network
+
+networks:
+  auction-network:
+    driver: bridge

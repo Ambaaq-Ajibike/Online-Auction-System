@@ -14,13 +14,7 @@ namespace Application.Services.Implementations
     /// </summary>
     public class RoomService(IRoomRepository _repository, IConnection _natsConnection) : IRoomService
     {
-        /// <summary>
-        /// Creates a new auction asynchronously.
-        /// Validates the auction's opening and closing dates before creation.
-        /// </summary>
-        /// <param name="userId">The ID of the user creating the auction.</param>
-        /// <param name="auctionRequest">The auction details provided by the user.</param>
-        /// <returns>A response indicating the success or failure of the auction creation.</returns>
+        
         public async Task<BaseResponse<Guid>> CreateAsync(string userId, CreateAuctionRequest auctionRequest)
         {
             // Validation: opening date must be before closing date
@@ -54,10 +48,7 @@ namespace Application.Services.Implementations
             };
         }
 
-        /// <summary>
-        /// Retrieves a list of all currently open auctions asynchronously.
-        /// </summary>
-        /// <returns>A response with a list of auction DTOs for all open auctions.</returns>
+        
         public async Task<BaseResponse<List<AuctionDto>>> GetAllOpenAuctionsAsync()
         {
             // Get auctions that are currently open
@@ -141,14 +132,7 @@ namespace Application.Services.Implementations
             };
         }
 
-        /// <summary>
-        /// Enters a user into an auction room for bidding.
-        /// Publishes a bidding request to NATS.
-        /// </summary>
-        /// <param name="email">The email of the bidder.</param>
-        /// <param name="auctionId">The ID of the auction to bid on.</param>
-        /// <param name="request">The bidding request details.</param>
-        /// <returns>A response indicating the success or failure of the bidding request.</returns>
+       
         public async Task<BaseResponse<Guid>> EnterRoomAsync(string email, Guid auctionId, BiddingRequest request)
         {
             var auction = await _repository.GetAsync(x => x.Id == auctionId);

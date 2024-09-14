@@ -1,5 +1,6 @@
 using Infrastructure.Extension;
 using Application.Extensions;
+using Microsoft.OpenApi.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -14,6 +15,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+
+/*-----------------------------Swagger PArt-----------------------------*/
+#region Swagger REgion
+//builder.Services.AddSwaggerGen();
+
+builder.Services.AddSwaggerGen(swagger =>
+{
+    swagger.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Version = "v1",
+        Title = "Payment Service",
+        Description = "Online Auction Service"
+    });
+});
+#endregion
+//------
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

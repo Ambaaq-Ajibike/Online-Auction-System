@@ -15,13 +15,13 @@ namespace Domain.Entities
         public string ProductPurchased { get; private set; }
         public decimal AmountToPay { get; private set; }
         public DateTime DateInitialized { get; private set; }
-        public Invoice(string payerName, decimal amountToPay, string product, Guid auctionId) 
+        public Invoice(string payerName, decimal amountToPay, string productPurchased, Guid auctionId) 
         {
             Id = Guid.NewGuid();
             AuctionId = auctionId;
             InvoiceRef = $"OAS-{Guid.NewGuid().ToString()[..7]}";
             PayerName = payerName;
-            ProductPurchased = product;
+            ProductPurchased = productPurchased;
             AmountToPay = amountToPay;
             DateInitialized = DateTime.Now;
         }

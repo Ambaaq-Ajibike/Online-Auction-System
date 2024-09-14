@@ -1,4 +1,5 @@
 ﻿using Application.Repositories;
+using Infrastructure.BackgroundJob;
 using Infrastructure.Persistence;
 using Infrastructure.Persistence.Repositories;
 using Microsoft.EntityFrameworkCore;
@@ -18,7 +19,7 @@ namespace Infrastructure.Extension
         public static IServiceCollection AddRepositories(this IServiceCollection serviceCollection)
         {
             return serviceCollection
-                .AddScoped<IRoomRepository, RoomRepository>();
+                .AddScoped<IRoomRepository, RoomRepository>().AddHostedService<CloseAuctionBackgroundJob>(); ;
         }
     }
 }

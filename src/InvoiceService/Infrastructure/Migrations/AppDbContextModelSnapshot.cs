@@ -31,23 +31,21 @@ namespace Infrastructure.Migrations
                     b.Property<decimal>("AmountToPay")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<Guid>("AuctionId")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<DateTime>("DateInitialized")
                         .HasColumnType("datetime2");
 
-                    b.Property<Guid>("InvoiceId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid>("PayerId")
-                        .HasColumnType("uniqueidentifier");
+                    b.Property<string>("InvoiceRef")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PayerName")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<Guid>("ReceiverId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<string>("ReceiverName")
+                    b.Property<string>("ProductPurchased")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

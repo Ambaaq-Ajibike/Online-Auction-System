@@ -32,30 +32,42 @@ namespace Infrastructure.BackgroundJob
         {
             _logger.LogInformation("Auction background service is starting.");
 
+            // Keep the service running until the application stops or it is canceled
             while (!stoppingToken.IsCancellationRequested)
             {
-                _logger.LogInformation("Checking auctions...");
-
-                using (var scope = _serviceProvider.CreateScope())
+                try
                 {
-                    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
-                    var _natsConnection = scope.ServiceProvider.GetRequiredService<IConnection>();
+                    _logger.LogInformation("Checking auctions...");
 
-                    var auctionsToClose = dbContext.Auctions
-                        .Where(a => a.ClosingDate <= DateTime.Now)
-                        .ToList();
-
-                    for (int i = 0; i < auctionsToClose.Count; i++) 
+                    using (var scope = _serviceProvider.CreateScope())
                     {
-                        auctionsToClose[i] = auctionsToClose[i].EndAuction();
+                        var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+                        var _natsConnection = scope.ServiceProvider.GetRequiredService<IConnection>();
 
-                        var data = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(auctionsToClose[i].Id));
+                        var auctionsToClose = dbContext.Auctions
+                            .Where(a => !a.HasEnd && a.ClosingDate <= DateTime.Now)
+                            .ToList();
 
-                        _natsConnection.Publish("CloseRoom", data);
+                        for(int i = 0; i < auctionsToClose.Count; i++)
+                        {
+                            
+                            auctionsToClose[i] = auctionsToClose[i].EndAuction();
+                            dbContext.Update(auctionsToClose[i]);
+                            dbContext.SaveChanges();
+                            var data = Encoding.UTF8.GetBytes(JsonSerializer.Serialize(auctionsToClose[i].Id));
+
+                            _natsConnection.Publish("CloseRoom", data);
+                            
+                        }
                     }
-
-                    
                 }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, "An error occurred while checking auctions.");
+                }
+
+                // Delay the next execution for 1 minute
+                await Task.Delay(TimeSpan.FromMinutes(2), stoppingToken);
             }
 
             _logger.LogInformation("Auction background service is stopping.");

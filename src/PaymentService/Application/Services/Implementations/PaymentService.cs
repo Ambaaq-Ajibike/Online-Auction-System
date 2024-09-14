@@ -11,7 +11,7 @@ namespace Application.Services.Implementations
     {
         public async Task<BaseResponse<Guid>> CreateAsync(PaymentRequest paymentRequest)
         {
-            var existingPayment = await _repository.GetAsync(x => x.InvoiceRef == paymentRequest.invoiceRef);
+            var existingPayment = await _repository.GetAsync(x => x.InvoiceRef == paymentRequest.InvoiceRef);
             if (existingPayment is not null) 
             {
                 return new BaseResponse<Guid>
@@ -21,9 +21,9 @@ namespace Application.Services.Implementations
                 };
             }
             
-            
+            //Call Paystack gateway
            
-            var invoice = new Payment(paymentRequest.invoiceRef, true);
+            var invoice = new Payment(paymentRequest.InvoiceRef, true);
             await _repository.CreateAsync(invoice);
             return new BaseResponse<Guid>
             {
